@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+body{
+    font-family: 'Noto Sans', sans-serif;
+} 
+h1{font-size: 3rem;
+    line-height: 1.5;
+}
+#title{
+    background-color: #ff4c68;
+    padding: 3% 15%;
+}
+h1{
+    color:white;
+    font-weight:bold;
+}
+.navbar-brand{
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+}
+.bike{
+    letter-spacing: 10px;
+}
+.c1{
+    letter-spacing: 3px;
+}
+.title1{
+    text-align: center;
+}
+.navbar{
+    padding:0 0 4.5rem;
+}
+.nav-item{
+    padding: 0px 20px;
+}
+.nav-link{
+    font-size: 20px;
+}
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+.title-image{
+    
+    transform: rotate(0deg);
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    
+}
+@media (max-width:990px) {
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        transform:rotate(0deg);
+    }
+    
+}
+#features{
+    background-color: white;
+    padding: 9% 15%;
+}
+.features-box{
+    text-align:center;
+    padding: 5%;
+}
+i:hover{
+    color: red;
+}
+h3{
+    font-weight: bold;
+}
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+p{
+    color: grey;
+}
+.icon{
+    color:#ef8172;
+    margin-bottom: 5%;
+}
+.icon:hover{
+    color:#ff4c68;
+}
+#testimonials{
+    padding:9% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color:white;
+}
+.testimonials-image{
+    width:20%;
+    border-radius: 100%;
+    margin: 10px;
+}
+.carousel-item{
+    padding: 9% 15%;
+}
+#pricing{
+    padding:9% 15%;
+    text-align: center;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 4%;
+}
+.press-img{
+   width:15%;
+   margin:20px 20px 50px 20px;
+}
+.card-text{
+    padding: 5% 2%;
+}
+#cta{
+    padding: 9% 15%;
+    background-color: #ff4c68;
+    text-align: center;
+    color:white;
+}
+#cta h3{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+@media (max-width:990px){
+    #cta h3{
+        text-align: center;
+        padding:20px;
+    }
+}
+.cta-button{
+    margin:3% 1.5% 7% 0%;
+}
+#footer{
+    padding:9% 15%;
+    text-align: center;
+    padding: 120px 0px 40px 0px;
+}
+.fotter-icon{
+    margin:0px 15px 0px 0px;
+}
